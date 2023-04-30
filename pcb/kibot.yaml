@@ -65,7 +65,7 @@ outputs:
     type: compress
     dir: ./
     options:
-      output: companion-gerbers.zip
+      output: megadesk_companion-gerbers.zip
       files:
         - from_output: JLCPCB_gerbers
           dest: /

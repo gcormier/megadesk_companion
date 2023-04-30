@@ -2208,7 +2208,7 @@
     (pin "1" (uuid 5eb825ba-d518-4c62-b686-b65abf82cb17))
     (pin "2" (uuid b98144e4-a672-4a8d-afa4-06f560ecc0b0))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R9") (unit 1)
         )
@@ -2233,7 +2233,7 @@
     )
     (pin "1" (uuid 7f165b69-03c0-427d-b4c5-2eaff1efee06))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR024") (unit 1)
         )
@@ -2258,7 +2258,7 @@
     )
     (pin "1" (uuid 1f36801a-a430-4914-9951-886486a754f2))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR013") (unit 1)
         )
@@ -2293,7 +2293,7 @@
     (pin "7" (uuid 16a32835-e813-42ee-965a-a86aec66bdf9))
     (pin "8" (uuid 8c8e6dac-5841-4470-9b00-806df9826468))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "U4") (unit 1)
         )
@@ -2318,7 +2318,7 @@
     )
     (pin "1" (uuid 2e4abf23-6f2d-4fdf-aec6-5c2238328334))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR02") (unit 1)
         )
@@ -2352,7 +2352,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C8") (unit 1)
         )
@@ -2377,7 +2377,7 @@
     )
     (pin "1" (uuid 25ed2586-3de6-4cdb-96e9-86ef9adb88a9))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR029") (unit 1)
         )
@@ -2407,7 +2407,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR014") (unit 1)
         )
@@ -2436,7 +2436,7 @@
     (pin "1" (uuid eec4b69f-765d-4d58-9832-725d0bdb6a61))
     (pin "2" (uuid 146d8a43-c873-4b3e-bc6e-b6b27715a607))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C2") (unit 1)
         )
@@ -2469,7 +2469,7 @@
     (pin "5" (uuid 8f812536-f96d-47a3-967d-56bbd87d94a3))
     (pin "6" (uuid 556dd4ee-a2bf-4214-b88a-b6980f0b1b4c))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "U1") (unit 1)
         )
@@ -2513,7 +2513,7 @@
     (pin "B9" (uuid 1dde5728-109d-475c-bf5e-d490d388a33b))
     (pin "S1" (uuid 0cf4747e-8801-4776-964a-b61777203a56))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "J1") (unit 1)
         )
@@ -2538,7 +2538,7 @@
     )
     (pin "1" (uuid 59296971-dda4-496f-8070-9fff631da09d))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR06") (unit 1)
         )
@@ -2563,7 +2563,7 @@
     )
     (pin "1" (uuid 6119d5ce-fe70-44cb-871c-f222fdb5f9fa))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR07") (unit 1)
         )
@@ -2593,7 +2593,7 @@
     (pin "2" (uuid 174fdf2f-f872-4613-9c31-f98b1e48c301))
     (pin "3" (uuid 8946b6fa-303a-4cc9-ae64-14e0fa110554))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "J4") (unit 1)
         )
@@ -2618,7 +2618,7 @@
     )
     (pin "1" (uuid 82ba845f-f322-4849-9735-0adca7d78d1d))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR01") (unit 1)
         )
@@ -2648,7 +2648,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR017") (unit 1)
         )
@@ -2677,7 +2677,7 @@
     (pin "1" (uuid 0fc4fc67-f71f-4396-9e22-ccae1ba24f3b))
     (pin "2" (uuid 6f8a3aca-2fab-47b7-a998-ba62edfb4baa))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "D2") (unit 1)
         )
@@ -2702,7 +2702,7 @@
     )
     (pin "1" (uuid feab3b4e-1028-4283-8e7a-479216141537))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR04") (unit 1)
         )
@@ -2731,7 +2731,7 @@
     (pin "1" (uuid 4521991e-d5d5-486f-8ff2-b195bc856785))
     (pin "2" (uuid 52ce9c2f-70b7-4c81-b8dc-3b7b2e207f05))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R7") (unit 1)
         )
@@ -2765,7 +2765,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C6") (unit 1)
         )
@@ -2790,7 +2790,7 @@
     )
     (pin "1" (uuid 0d8bb551-e7be-4bfb-a93c-0e417db4d3b2))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR010") (unit 1)
         )
@@ -2820,7 +2820,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR023") (unit 1)
         )
@@ -2845,7 +2845,7 @@
     )
     (pin "1" (uuid 25eac730-ba96-41b6-9eb4-15abdeacb50e))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR011") (unit 1)
         )
@@ -2875,7 +2875,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR016") (unit 1)
         )
@@ -2900,7 +2900,7 @@
     )
     (pin "1" (uuid 68f6a061-adea-4139-9700-78d36db46c3d))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR05") (unit 1)
         )
@@ -2930,7 +2930,7 @@
           (reference "#PWR019") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR019") (unit 1)
         )
@@ -2955,7 +2955,7 @@
     )
     (pin "1" (uuid b9627c97-ae88-4aa6-b0d0-8507aa3a7265))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR012") (unit 1)
         )
@@ -2985,7 +2985,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR021") (unit 1)
         )
@@ -3015,7 +3015,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR022") (unit 1)
         )
@@ -3044,7 +3044,7 @@
     (pin "1" (uuid e973eff8-9c77-44be-8d70-e31c3029b3c4))
     (pin "2" (uuid d91ed6f0-c5fb-4f43-8434-d4c6e512a3b8))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R2") (unit 1)
         )
@@ -3078,7 +3078,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C9") (unit 1)
         )
@@ -3112,7 +3112,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R8") (unit 1)
         )
@@ -3137,7 +3137,7 @@
     )
     (pin "1" (uuid 92978ce3-5ef5-43d2-b373-b83f41e765f6))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR0103") (unit 1)
         )
@@ -3166,7 +3166,7 @@
     (pin "1" (uuid 2e99f7a6-929a-4fa7-9917-8666c04c4dff))
     (pin "2" (uuid bffa29a4-8b55-40ae-b348-6a42c3cc8bf2))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "L1") (unit 1)
         )
@@ -3196,7 +3196,7 @@
           (reference "#PWR0108") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR08") (unit 1)
         )
@@ -3228,7 +3228,7 @@
     (pin "4" (uuid fde2d72b-e2aa-4ec9-bfc7-3f3748cbfa0d))
     (pin "5" (uuid 39dd8a26-d487-49c3-8570-a7aab2c6f110))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "J3") (unit 1)
         )
@@ -3262,7 +3262,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R5") (unit 1)
         )
@@ -3287,7 +3287,7 @@
     )
     (pin "1" (uuid eb2ecd22-9b15-4112-82d4-377f7ed03079))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR03") (unit 1)
         )
@@ -3312,7 +3312,7 @@
     )
     (pin "1" (uuid 44355c7a-51b7-4b95-80f7-ddfb3e3996cc))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR015") (unit 1)
         )
@@ -3347,7 +3347,7 @@
           (reference "U3") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "U3") (unit 1)
         )
@@ -3371,7 +3371,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "H1") (unit 1)
         )
@@ -3400,7 +3400,7 @@
     (pin "1" (uuid 4f3c37cc-eef7-4bf7-a522-c93a0fbb5a7a))
     (pin "2" (uuid 3f086010-eb2e-4484-a79c-824880e819a1))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C4") (unit 1)
         )
@@ -3429,7 +3429,7 @@
     (pin "1" (uuid 6cc4732c-1dd8-4da0-8967-74522e5db1bf))
     (pin "2" (uuid db96c872-f501-4592-a0c8-a307f731e151))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "D3") (unit 1)
         )
@@ -3454,7 +3454,7 @@
     )
     (pin "1" (uuid c9ea85ca-73e3-48ca-9c99-a9c0d9ae680a))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR0108") (unit 1)
         )
@@ -3479,7 +3479,7 @@
     )
     (pin "1" (uuid 2ab7386a-2bf1-474b-8adc-2a96773ddd67))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR025") (unit 1)
         )
@@ -3513,7 +3513,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R3") (unit 1)
         )
@@ -3551,7 +3551,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "J2") (unit 1)
         )
@@ -3585,7 +3585,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C3") (unit 1)
         )
@@ -3614,7 +3614,7 @@
     (pin "1" (uuid 3f6281fb-f5aa-440c-a49b-e6015eca3e39))
     (pin "2" (uuid 05c0e660-1f87-4d6f-b457-b2ee48d2f34a))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "D1") (unit 1)
         )
@@ -3644,7 +3644,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR027") (unit 1)
         )
@@ -3674,7 +3674,7 @@
           (reference "#PWR0107") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR09") (unit 1)
         )
@@ -3708,7 +3708,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R6") (unit 1)
         )
@@ -3738,7 +3738,7 @@
           (reference "#PWR018") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR018") (unit 1)
         )
@@ -3759,6 +3759,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf" (at 166.37 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2838502" (at 166.37 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5226e131-8746-4315-bd4c-b67bfcc9cf03))
@@ -3815,7 +3818,7 @@
     (pin "8" (uuid ec8e9323-9734-4698-b649-c2793018f87c))
     (pin "9" (uuid b6157c63-af8f-47a3-ae00-23d38b2ffd0e))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "U2") (unit 1)
         )
@@ -3844,7 +3847,7 @@
     (pin "1" (uuid bee88688-bcad-414a-a0b4-08f0d88fba1b))
     (pin "2" (uuid ca69cb86-d01d-4450-aed6-730c206a7420))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C5") (unit 1)
         )
@@ -3869,7 +3872,7 @@
     )
     (pin "1" (uuid 12a05ba7-032e-44a0-971f-ca6041a435eb))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR028") (unit 1)
         )
@@ -3898,7 +3901,7 @@
     (pin "1" (uuid c7ed091b-4bbf-4368-8204-8e9393862e42))
     (pin "2" (uuid f1ed1646-bd26-4972-b3a2-0bef99ca4205))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "FB1") (unit 1)
         )
@@ -3923,7 +3926,7 @@
     )
     (pin "1" (uuid dd5afd2f-9771-4a21-967d-b4081bce2328))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR026") (unit 1)
         )
@@ -3957,7 +3960,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R1") (unit 1)
         )
@@ -3986,7 +3989,7 @@
     (pin "1" (uuid cf299805-5bda-40b1-adfe-afcaf2751e61))
     (pin "2" (uuid 5576e099-5a41-4c45-afec-a547eaeadf25))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C7") (unit 1)
         )
@@ -4016,7 +4019,7 @@
     (pin "2" (uuid 70982d1d-e021-48c3-bec4-d0379c23a04d))
     (pin "3" (uuid ad421793-b524-45ee-b094-c540e0bd3db6))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "J5") (unit 1)
         )
@@ -4045,7 +4048,7 @@
     (pin "1" (uuid 9fa6a7a4-5b93-4eac-90d6-ef3577a44790))
     (pin "2" (uuid 0ada77e7-49fd-4649-b14a-d92928dfdd7c))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R11") (unit 1)
         )
@@ -4070,7 +4073,7 @@
     )
     (pin "1" (uuid c3529553-db47-4faf-b0a3-6e335662a270))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR0102") (unit 1)
         )
@@ -4094,7 +4097,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "H2") (unit 1)
         )
@@ -4128,7 +4131,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R4") (unit 1)
         )
@@ -4153,7 +4156,7 @@
     )
     (pin "1" (uuid d99a053c-d9f1-42a3-bfcf-15bb3a546b38))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR0101") (unit 1)
         )
@@ -4183,7 +4186,7 @@
           (reference "#PWR020") (unit 1)
         )
       )
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "#PWR020") (unit 1)
         )
@@ -4212,7 +4215,7 @@
     (pin "1" (uuid 7d8e0c6c-6e19-441c-9d9e-0e68f61261f1))
     (pin "2" (uuid 216c53e3-71a6-456c-a565-41c6f25ce4d1))
     (instances
-      (project "mega_breakout"
+      (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "C1") (unit 1)
         )

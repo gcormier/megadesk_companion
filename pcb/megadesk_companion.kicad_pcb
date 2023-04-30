@@ -1616,7 +1616,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 61090cc6-d00c-4ba1-9f80-f37aa92b0ffe)
     )
-    (fp_text user "Antenna Area" (at 0 -5.85 90) (layer "F.SilkS")
+    (fp_text user "Antenna Area" (at 0 -3.7 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6534c209-ad5d-477b-9dda-25c2f4e305e3)
     )
@@ -2683,6 +2683,9 @@
   )
   (gr_text "24V\n\nLIN\n\nGND" (at 42.478448 46.269189 90) (layer "F.SilkS") (tstamp c696905d-d527-432b-8138-45efb1e22786)
     (effects (font (size 0.79 0.79) (thickness 0.1)) (justify right))
+  )
+  (gr_text "JLCJLCJLCJLC" (at 80.5 57.5 90) (layer "F.SilkS") (tstamp cd34fc63-3229-474c-801a-2d55741257f0)
+    (effects (font (size 0.79 0.79) (thickness 0.1)))
   )
   (gr_text "24V\n\nLIN\n\nGND\n\nRXD\n\nTXD" (at 58.993234 46.285192 90) (layer "F.SilkS") (tstamp d1e90935-f815-4994-afcc-aeae1de942e9)
     (effects (font (size 0.79 0.79) (thickness 0.1)) (justify right))
