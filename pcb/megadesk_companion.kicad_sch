@@ -1610,9 +1610,6 @@
   (junction (at 72.39 30.48) (diameter 0) (color 0 0 0 0)
     (uuid 41fe82fd-ef90-40cc-af38-e52fd7fabb4f)
   )
-  (junction (at 127 110.49) (diameter 0) (color 0 0 0 0)
-    (uuid 45131f69-c112-42a6-a1a1-c93af5196611)
-  )
   (junction (at 86.36 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 4adcc0e0-27e1-4f15-add6-80e28cc8c5c7)
   )
@@ -1645,6 +1642,9 @@
   )
   (junction (at 58.42 85.09) (diameter 0) (color 0 0 0 0)
     (uuid ad5e153f-885c-471c-ae26-4bc96a7731c2)
+  )
+  (junction (at 127 110.49) (diameter 0) (color 0 0 0 0)
+    (uuid c16c8605-125e-474e-887e-1a2f9d09b2ca)
   )
   (junction (at 100.33 30.48) (diameter 0) (color 0 0 0 0)
     (uuid c1b7ff7a-ddc7-4566-97f5-16861c557bd3)
@@ -2433,8 +2433,8 @@
     (property "LCSC" "C15850" (at 91.44 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eec4b69f-765d-4d58-9832-725d0bdb6a61))
-    (pin "2" (uuid 146d8a43-c873-4b3e-bc6e-b6b27715a607))
+    (pin "1" (uuid 68ba38b4-9017-4848-bc7f-35890453ac18))
+    (pin "2" (uuid 69307301-9de0-4cf1-bdda-e60abd4b0225))
     (instances
       (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
@@ -2601,6 +2601,40 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 127 113.03 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2941aa6a-db9b-4a26-9525-23cabb15514d)
+    (property "Reference" "C1" (at 124.46 111.7599 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10uF" (at 124.46 114.2999 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 127 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C15850" (at 127 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1148de04-de23-48d0-90b5-9772d800b69c))
+    (pin "2" (uuid 372853f7-d5bd-44ca-9755-2604769e5215))
+    (instances
+      (project "esptemp8c"
+        (path "/23e49c1c-e106-44cc-bc49-1a732eea896b"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "megadesk_companion"
+        (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+24V") (at 20.32 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2aec3eb3-80ce-4df5-a807-9b5a2bc2b0e0)
@@ -2757,8 +2791,8 @@
     (property "LCSC" "C15850" (at 157.48 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39e53c1e-f3bd-42cd-927f-1a5d2ec6a33e))
-    (pin "2" (uuid 615eab36-2559-4025-9fae-6133b9d2be9c))
+    (pin "1" (uuid e64ec714-00f4-4712-9a30-ee9be861d492))
+    (pin "2" (uuid 62c8e6f4-945c-4f48-b9c5-db73f747b576))
     (instances
       (project "esptemp8c"
         (path "/23e49c1c-e106-44cc-bc49-1a732eea896b"
@@ -3963,35 +3997,6 @@
       (project "megadesk_companion"
         (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 127 113.03 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e134586b-9b5d-42d6-9f39-f7acf0fe188a)
-    (property "Reference" "C7" (at 124.46 112.4013 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1uF" (at 124.46 114.9413 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 127 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 127 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C52923" (at 127 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf299805-5bda-40b1-adfe-afcaf2751e61))
-    (pin "2" (uuid 5576e099-5a41-4c45-afec-a547eaeadf25))
-    (instances
-      (project "megadesk_companion"
-        (path "/efdd8971-0318-4d66-ba3f-bc0ab1fdcf7e"
-          (reference "C7") (unit 1)
         )
       )
     )
