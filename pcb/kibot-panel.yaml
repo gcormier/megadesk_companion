@@ -1,6 +1,10 @@
 kibot:
   version: 1
 
+preflight:
+  check_zone_fills: true
+  fill_zones: true
+
 filters:
   - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
