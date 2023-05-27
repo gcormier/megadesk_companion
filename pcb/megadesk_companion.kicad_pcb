@@ -1894,6 +1894,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/ESP32-C3-MINI-1.STEP"
+      (offset (xyz -6.6 -8.2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_SMA" (layer "F.Cu")
