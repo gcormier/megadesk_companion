@@ -1,7 +1,7 @@
 # megadesk companion
 This board expands the megadesk to allow for additional functionality - notably esphome integration.
 
-<img  src="megacomp1.jpg" width=25%/> <img  src="megacomp-render.png" width=30%/>
+<img src="megacomp1.jpg" width=25%/> <img src="megacomp-render.png" width=30%/>
 
 ## Tindie store
 This is available for purchase at <a  href="https://www.tindie.com/products/gcormier/megadesk-companion/">https://www.tindie.com/products/gcormier/megadesk-companion/</a>
@@ -9,6 +9,7 @@ This is available for purchase at <a  href="https://www.tindie.com/products/gcor
 ## Features
 - For newer 5-pin megadesks, plug and play!
 - Older 3-pin megadesks require soldering 2 wires to SCK/MISO
+    - Serial firmware is required. All units after December 2022 were flashed with the serial firmware.
 - Built-in logic-level shifting between megadesk (5V) and the ESP32 (3.3V)
 
 ## Using
