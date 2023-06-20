@@ -8,7 +8,7 @@ This is available for purchase at <a  href="https://www.tindie.com/products/gcor
 
 ## Features
 - For newer 5-pin megadesks, plug and play!
-- Older 3-pin megadesks require soldering 2 wires to SCK/MISO
+- Older 3-pin megadesks require [soldering 2 wires](https://github.com/gcormier/megadesk_companion/blob/main/megacomp-3pin.png) to SCK/MISO
     - Serial firmware is required. All units after December 2022 were flashed with the serial firmware.
 - Built-in logic-level shifting between megadesk (5V) and the ESP32 (3.3V)
 
@@ -17,6 +17,8 @@ This is available for purchase at <a  href="https://www.tindie.com/products/gcor
 - The esphome files are located at the main [megadesk repository](https://github.com/gcormier/megadesk/tree/master/esphome)
 - Using the USB-C port will use the ESP32-C3's native USB interface to support the first uploading of code
 - Connecting USB-C while the device is powered from the main cable will not cause damage. However, it is recommended to only use the USB-C port while flashing. The device can be flashed over WiFi after the first time.
+- Youtube Video - [3-pin hookup](https://www.youtube.com/watch?v=xN-dQPGgHXg)
+- Youtube Video - [5-pin hookup](https://www.youtube.com/watch?v=yaZ4koPUZJ8)
 
 ## Additional Information
 - The [megadesk repository](https://github.com/gcormier/megadesk) is the main location for all discussion and issues. There is a [popular discussion](https://github.com/gcormier/megadesk/discussions/87) relating to esphome usage.
