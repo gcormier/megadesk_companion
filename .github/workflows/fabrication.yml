@@ -6,7 +6,7 @@ on:
       - '**.kicad_pcb'
       - '**kibot.yaml'
     tags:
-      - pcb-v*
+      - pcb*
   pull_request:
     paths:
       - '**.kicad_sch'
