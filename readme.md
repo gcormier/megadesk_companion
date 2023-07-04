@@ -1,5 +1,5 @@
 # megadesk companion
-This board expands the megadesk to allow for additional functionality - notably esphome integration.
+This board expands the megadesk to allow for additional functionality - notably esphome/homeassistant integration.
 
 <img src="megacomp1.jpg" width=25%/> <img src="megacomp-render.png" width=30%/>
 
