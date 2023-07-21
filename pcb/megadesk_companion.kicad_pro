@@ -459,7 +459,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "megadesk_companion.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
