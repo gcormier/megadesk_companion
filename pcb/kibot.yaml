@@ -35,10 +35,10 @@ outputs:
       subtract_mask_from_silk: true
       inner_extension_pattern: '.g%n'
     layers:
-      # Note: a more generic approach is to use 'copper' but then the filenames
-      # are slightly different.
       - F.Cu
       - B.Cu
+      - In1.Cu
+      - In2.Cu
       - F.Paste
       - B.Paste
       - F.SilkS
