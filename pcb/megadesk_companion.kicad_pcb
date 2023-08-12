@@ -2986,9 +2986,6 @@
 
   (gr_rect (start 34 32.02146) (end 78 81)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 77e99f9d-e040-4ec0-b493-6ca9b4432a4f))
-  (gr_text "JLCJLCJLCJLC" (at 80.8 83) (layer "B.SilkS") (tstamp 32536c25-586f-499e-8cc7-13a458a4aaa5)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
-  )
   (gr_text "RED+" (at 38.5 38 90) (layer "F.SilkS") (tstamp 0da50c0a-a5f2-476b-897b-dff9d5beb554)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
