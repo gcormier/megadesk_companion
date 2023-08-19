@@ -29,7 +29,7 @@ outputs:
       configs:
         - layout:
             rows: 2
-            cols: 2
+            cols: 4
             space: 0
             #hbackbone: 5
             #vbackbone: 5
