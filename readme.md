@@ -19,7 +19,7 @@ This is available for purchase at <a  href="https://www.tindie.com/products/gcor
 - Connecting USB-C while the device is powered from the main cable will not cause damage. However, it is recommended to only use the USB-C port while flashing. The device can be flashed over WiFi after the first time.
 - Youtube Video - [3-pin hookup](https://www.youtube.com/watch?v=xN-dQPGgHXg)
 - Youtube Video - [5-pin hookup](https://www.youtube.com/watch?v=yaZ4koPUZJ8)
-
+- [CP210x drivers for Windows](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) (linux supports this natively)
 ## Additional Information
 - The [megadesk repository](https://github.com/gcormier/megadesk) is the main location for all discussion and issues. There is a [popular discussion](https://github.com/gcormier/megadesk/discussions/87) relating to esphome usage.
 - GPIO4/GPIO3/GND have been broken out to solder pads for those with other ideas.
