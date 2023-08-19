@@ -19,4 +19,4 @@ outputs:
       output: "render.png"
       width: 1920   # default 1280x720, bump to 1920x1080
       zoom: 4
-      move_y: 4
+      move_y: 2
