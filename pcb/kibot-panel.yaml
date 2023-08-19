@@ -74,7 +74,7 @@ outputs:
             vjustify: center
           text2:
             type: simple
-            text: Design created on {date}
+            text: Design created on {date} - <<hash>>
             anchor: mb
             voffset: -2.5
             hjustify: center
