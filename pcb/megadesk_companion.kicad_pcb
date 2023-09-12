@@ -3149,7 +3149,7 @@
   (gr_text "RED+" (at 52.5 38 90) (layer "F.SilkS") (tstamp 3f118f30-2f09-4daa-92b5-de91c2188753)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Megadesk Companion v4d" (at 35.75 56.5 90) (layer "F.SilkS") (tstamp 4988f4ff-d7b2-455e-9888-327d09adea81)
+  (gr_text "Megadesk Companion v4e" (at 35.75 56.5 90) (layer "F.SilkS") (tstamp 4988f4ff-d7b2-455e-9888-327d09adea81)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "250mA MAX" (at 52.75 80.25 90) (layer "F.SilkS") (tstamp 522b8092-22c7-496f-ab10-2a1ad22d46ba)
