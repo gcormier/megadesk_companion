@@ -37,3 +37,4 @@ fp-info-cache
 *.csv
 
 PCB/*-backups*
+*.lck

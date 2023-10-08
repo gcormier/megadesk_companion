@@ -6,7 +6,7 @@ outputs:
     comment: "STEP file"
     type: step
 
-  - name: 'Rendering'
+  - name: 'Rendering iso'
     type: render_3d
     options:
       view: top
@@ -16,7 +16,30 @@ outputs:
       ray_tracing: true
       auto_crop: true
       transparent_background: true
-      output: "render.png"
+      output: "render-iso.png"
       width: 1920   # default 1280x720, bump to 1920x1080
       zoom: 3
       move_y: 1
+  
+  - name: 'Rendering top'
+    type: render_3d
+    options:
+      view: top
+      rotate_x: 0
+      rotate_y: 0
+      rotate_z: 0
+      #ray_tracing: true
+      auto_crop: true
+      transparent_background: true
+      output: "render-top.png"
+      width: 1920   # default 1280x720, bump to 1920x1080
+
+  - name: 'Rendering bottom'
+    type: render_3d
+    options:
+      view: bottom
+      #ray_tracing: true
+      auto_crop: true
+      transparent_background: true
+      output: "render-bottom.png"
+      width: 1920   # default 1280x720, bump to 1920x1080
