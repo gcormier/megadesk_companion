@@ -1,6 +1,12 @@
 name: "Fabrication - Panel"
 on:
-
+  push:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**kibot.yaml'
+    tags:
+      - pcb*
   workflow_dispatch:
   workflow_call:
 
