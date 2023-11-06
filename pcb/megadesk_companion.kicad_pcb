@@ -1918,7 +1918,7 @@
       (net 38 "GND") (pinfunction "B") (pintype "passive") (tstamp 100ce1f5-9419-4240-884c-fcf2bec975e0))
     (pad "2" smd rect (at 3 1.875 90) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 38 "GND") (pinfunction "B") (pintype "passive") (tstamp 69fbe461-9db0-4620-8845-6a5bfe6066a2))
-    (model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_XKB_TS-1187A.wrl"
+    (model "${KIPRJMOD}/TS-1187A.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
