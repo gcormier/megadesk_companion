@@ -6,7 +6,7 @@ preflight:
   filters:
     - filter: 'Ignore shield connections on connectors'
       error: 'unconnected_items'
-      regex: '*SHIELD*'
+      regex: '\*SHIELD\*'
 
 filters:
   - name: only_jlc_parts
