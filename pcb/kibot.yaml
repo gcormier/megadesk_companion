@@ -1,6 +1,13 @@
 kibot:
   version: 1
 
+preflight:
+  run_drc: true
+  filters:
+    - filter: 'Ignore shield connections on connectors'
+      error: 'unconnected_items'
+      regex: '*J*SHIELD*'
+
 filters:
   - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
