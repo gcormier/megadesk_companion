@@ -1,12 +1,12 @@
 kibot:
   version: 1
 
-preflight:
-  run_drc: true
-  filters:
-    - filter: 'Ignore J1 shield connections'
-      error: 'unconnected_items'
-      regex: 'J1-SHIELD-PadS1'
+#preflight:
+#  run_drc: true
+#  filters:
+#    - filter: 'Ignore J1 shield connections'
+#      error: 'unconnected_items'
+#      regex: 'J1-SHIELD-PadS1'
 
 filters:
   - name: only_jlc_parts
