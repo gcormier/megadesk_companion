@@ -4,9 +4,9 @@ kibot:
 preflight:
   run_drc: true
   filters:
-    - filter: 'Ignore shield connections on connectors'
+    - filter: 'Ignore J1 shield connections'
       error: 'unconnected_items'
-      regex: '(.*)SHIELD(.*)'
+      regex: 'J1-SHIELD-PadS1'
 
 filters:
   - name: only_jlc_parts
