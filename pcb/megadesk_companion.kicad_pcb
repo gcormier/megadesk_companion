@@ -3007,7 +3007,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/1c12e349-262a-4270-aa65-d803905fda64")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.85 90) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.85 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60a7f126-eea2-4aeb-995e-555cd6980255)
     )
@@ -3448,6 +3448,9 @@
   )
   (gr_text "RED+" (at 37 38 -90) (layer "B.SilkS") (tstamp 98cbe1d6-337f-4a9a-be9d-235521fc55fa)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
+  (gr_text "Turn off desk power and wait\n60sec prior to connecting." (at 36 75) (layer "B.SilkS") (tstamp c137551a-c758-4a76-84ce-d7d4f23bbb81)
+    (effects (font (size 1 1) (thickness 0.13)) (justify right bottom mirror))
   )
   (gr_text "3V" (at 45.75 50.5) (layer "B.SilkS") (tstamp c8daeae8-a9e4-4bb3-b0fc-0d921172eee5)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
