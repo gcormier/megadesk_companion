@@ -3312,7 +3312,7 @@
     (property "ki_description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/50f0e06d-b32e-4f4b-b034-e9246e733305")
-    (attr through_hole)
+    (attr smd exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J6" (at 1.27 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 09e1a137-a59e-4875-a380-eb938d895758)
