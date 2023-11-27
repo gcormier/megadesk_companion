@@ -3477,7 +3477,7 @@
   (gr_text "+5V\n\nSIG\n\nGND" (at 57.5 69 90) (layer "F.SilkS") (tstamp 994b4e4c-c080-472c-bcda-e05cc2022f90)
     (effects (font (size 0.79 0.79) (thickness 0.1)) (justify left))
   )
-  (gr_text "<<hash>>" (at 35 80 90) (layer "F.SilkS") (tstamp a5accfa3-5fbd-4024-be64-8fa8508982dc)
+  (gr_text "<<hash>>-<<pid>>" (at 35 80 90) (layer "F.SilkS") (tstamp a5accfa3-5fbd-4024-be64-8fa8508982dc)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left))
   )
   (gr_text "24V\n\nGND\n\nLIN" (at 42.478448 46.269189 90) (layer "F.SilkS") (tstamp c696905d-d527-432b-8138-45efb1e22786)
