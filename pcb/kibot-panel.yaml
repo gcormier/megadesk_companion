@@ -1,9 +1,6 @@
 kibot:
   version: 1
 
-import:
-  - file: JLCPCB
-
 preflight:
   check_zone_fills: true
   fill_zones: true
