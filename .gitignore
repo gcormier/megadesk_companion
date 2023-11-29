@@ -38,3 +38,4 @@ fp-info-cache
 
 PCB/*-backups*
 *.lck
+pcb/#auto_saved_files#
