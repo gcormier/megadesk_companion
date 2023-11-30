@@ -511,9 +511,9 @@
       "+3V3": "LowPower",
       "+5V": "Power",
       "/LX": "Power",
+      "/VIN": "Power",
       "GND": "LowPower",
-      "Net-(D2-A)": "Power",
-      "Net-(U1-EN)": "Power"
+      "Net-(D2-A)": "Power"
     },
     "netclass_patterns": []
   },
