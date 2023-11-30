@@ -16,7 +16,7 @@ import:
     definitions:
       _KIBOT_POS_ONLY_SMD: false
       #_KIBOT_MANF_DIR: './'
-
+      _KIBOT_PLOT_FOOTPRINT_VALUES: true
 outputs:
   - name: PDF_Print
     comment: 'Exports the PCB to the most common exhange format. Suitable for printing.'
