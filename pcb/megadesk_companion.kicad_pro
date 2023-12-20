@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.208
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,12 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|74600001|72540001|56f6e66e-8aa5-42fb-a76e-a76d71ebcfe2|a944549f-9966-4bb7-97c2-80adba7ecb51",
-        "unconnected_items|65280000|74195000|4b786f71-4386-42d0-a404-b514134788a9|f43b6edd-0102-4822-9a6e-7edca254328a",
-        "unconnected_items|73920000|74195000|89666635-810e-41b1-8600-113db1f77995|4b786f71-4386-42d0-a404-b514134788a9",
-        "unconnected_items|73920000|78375000|3d491213-af01-401e-aafd-5a6ee7d5a91c|89666635-810e-41b1-8600-113db1f77995"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -194,7 +189,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.7,
           "drill": 0.3
         },
         {
@@ -446,7 +441,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -462,9 +457,9 @@
         "name": "LowPower",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
+        "track_width": 0.4,
         "via_diameter": 0.8,
-        "via_drill": 0.5,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -479,9 +474,9 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
-        "via_diameter": 1.0,
-        "via_drill": 0.6,
+        "track_width": 0.5,
+        "via_diameter": 0.9,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -497,7 +492,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -508,12 +503,12 @@
     "net_colors": null,
     "netclass_assignments": {
       "+24V": "Power",
-      "+3V3": "LowPower",
-      "+5V": "Power",
+      "+3V3": "Power",
       "/LX": "Power",
       "/VIN": "Power",
-      "GND": "LowPower",
-      "Net-(D2-A)": "Power"
+      "GND": "Power",
+      "Net-(D2-K)": "Power",
+      "Net-(D3-A)": "Power"
     },
     "netclass_patterns": []
   },
