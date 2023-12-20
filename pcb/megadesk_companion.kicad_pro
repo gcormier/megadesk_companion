@@ -502,13 +502,13 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+24V": "Power",
       "+3V3": "Power",
       "/LX": "Power",
       "/VIN": "Power",
       "GND": "Power",
       "Net-(D2-K)": "Power",
-      "Net-(D3-A)": "Power"
+      "Net-(D3-A)": "Power",
+      "VCC": "Power"
     },
     "netclass_patterns": []
   },
