@@ -3377,7 +3377,7 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf" (at 151.13 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSV" "C5219316" (at 153.67 45.72 0)
+    (property "LCSC" "C5219316" (at 153.67 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "3" (uuid b64eceb6-5654-4a7a-9abd-045d4ce73e47))
