@@ -1598,6 +1598,7 @@
   (no_connect (at 121.92 107.95) (uuid 55322d5c-f7d1-4c48-acf4-5ba04283e5a4))
   (no_connect (at 177.8 146.05) (uuid bab3780e-1944-4f0f-975b-5543f37a3bf9))
   (no_connect (at 19.05 67.31) (uuid e418319c-3b19-45f6-87f2-5c7033bcd752))
+  (no_connect (at 177.8 128.27) (uuid f6bb1def-262f-4370-805d-cdcd1e4206ae))
 
   (wire (pts (xy 41.91 46.99) (xy 41.91 49.53))
     (stroke (width 0) (type default))
@@ -2094,10 +2095,6 @@
   (label "PROGTXD" (at 46.99 168.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ee03c94a-9b6e-4226-bff3-3505e68c0d4c)
-  )
-  (label "GPIO3" (at 177.8 128.27 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid efec38f7-4dff-4724-a72d-1afdfae67d78)
   )
   (label "PROGTXD" (at 177.8 105.41 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
