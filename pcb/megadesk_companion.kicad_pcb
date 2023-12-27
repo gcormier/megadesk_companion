@@ -2819,10 +2819,12 @@
     (property "LCSC" "")
     (property "Sheetfile" "megadesk_companion.kicad_sch")
     (property "Sheetname" "")
+    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "test point")
     (property "ki_keywords" "test point tp")
     (path "/5157781f-d585-4a15-b877-bdb6a37285c5")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP7" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 25ef2d01-b0ee-444b-aac4-09b45fe2a772)
@@ -2867,7 +2869,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 0e402951-2320-4f35-9ba1-dab34a99d299))
     (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 43 "/VIN") (pinfunction "1") (pintype "passive") (tstamp a3639de8-1f12-43c5-ad9a-e0a70cbb2c1c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2882,10 +2884,12 @@
     (property "LCSC" "")
     (property "Sheetfile" "megadesk_companion.kicad_sch")
     (property "Sheetname" "")
+    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "test point")
     (property "ki_keywords" "test point tp")
     (path "/fec4795d-cff3-4006-a556-d7f1eac1fe5f")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP10" (at 0 2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b2c64e78-3c0a-4a67-8fcf-cacd79364ccf)
@@ -2930,7 +2934,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 478640ae-774c-42fa-98c6-22b4c78f7904))
     (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 34 "GND") (pinfunction "1") (pintype "passive") (tstamp b48ab9c6-d46e-4ca5-9639-2e6052af1841))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2945,10 +2949,12 @@
     (property "LCSC" "")
     (property "Sheetfile" "megadesk_companion.kicad_sch")
     (property "Sheetname" "")
+    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "test point")
     (property "ki_keywords" "test point tp")
     (path "/0fba7135-37b1-492a-be49-66e163db4983")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP8" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8788243e-7720-4aff-b59e-afe10e793f9d)
@@ -2993,7 +2999,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e315ca73-17bd-497a-ab52-1d7da00a0244))
     (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 2 "/LX") (pinfunction "1") (pintype "passive") (tstamp dc4a7f2d-4412-480b-bad2-78fe4b87cc54))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3008,10 +3014,12 @@
     (property "LCSC" "")
     (property "Sheetfile" "megadesk_companion.kicad_sch")
     (property "Sheetname" "")
+    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "test point")
     (property "ki_keywords" "test point tp")
     (path "/f7c631ec-823e-4553-9254-b6b32c380de5")
-    (attr through_hole)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "TP9" (at 0 2.33) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp a3799ea1-f1ee-48c9-8ff6-c352ac01a0b6)
@@ -3056,7 +3064,7 @@
       (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp 23a0e5a8-91ba-4456-9510-f4f5ef23c156))
     (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 1 "+3V3") (pinfunction "1") (pintype "passive") (tstamp 2edddc4b-fa51-4286-ba94-774691832713))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
