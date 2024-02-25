@@ -37,3 +37,14 @@ With the addon, it achieves
 1. We still respect the initial design goal of using the same enclosure.
 1. It provides an upgrade path for the many existing owners of megadesk to add-on this functionality without wasting their initial controller.
 1. It keeps the code base for megadesk isolated, and avoids refactoring the code to ESP32 and requiring me to support esphome changes over time.
+
+## Remote Control via REST-API
+The megadesk-companion's default setup is done using [esphome](https://esphome.io/) and can be found in the megadesk's respository under [esphome/megadesk-companion.yaml](https://github.com/gcormier/megadesk/blob/master/esphome/megadesk-companion.yaml).
+This setup includes an HTTP server that allows controlling the megadesk via the [esphome REST-API](https://esphome.io/web-api/index.html#rest-api).
+
+By default, the megadesk-companion hosts a server at http://megadesk.local/ which listens on port 80.
+For example, to set the height, one can simply send a `POST` request:
+```sh
+curl -X POST 'http://megadesk.local/number/megadesk_height__cm_/set?value=<height>' # for height in cm
+curl -X POST 'http://megadesk.local/number/megadesk_height__inches_/set?value=25' # for height in inches
+```
