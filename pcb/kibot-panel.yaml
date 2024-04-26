@@ -21,6 +21,7 @@ outputs:
           cuts:
             type: vcuts
             layer: Edge.Cuts
+            template: ''
           framing:
             type: railstb
             width: 5mm
