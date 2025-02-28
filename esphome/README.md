@@ -1,0 +1,1 @@
+# megadesk_companion_component

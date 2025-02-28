@@ -1,0 +1,54 @@
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: esp-idf
+    version: recommended
+
+esphome:
+  name: megadesk
+  comment: megadesk-companion
+  platformio_options:
+    board_build.flash_mode: dio # If you don't specify this using esp-idf framework, the device will boot-loop.
+  on_boot:
+    priority: -100
+    then:
+      - delay: 1s
+      - uart.write: "<C0.0."
+      - delay: 1s
+      - uart.write: "<R0.11."
+      - delay: 1s
+      - uart.write: "<R0.12."
+
+external_components:
+  #- source: components
+  #  components: [ megadesk ]
+  - source: github://gcormier/megadesk_companion/esphome@main
+    components: [ megadesk ]
+    refresh: 0s
+    
+
+logger:
+  hardware_uart: USB_SERIAL_JTAG # Logging over the USB-C port (WiFi will always log as well)
+
+
+#####
+# You need to make sure tx_pin and rx_pin are set properly for your device.
+# For 5-pin Megadesks, this will not need changing.
+#
+# If you have a 3-pin megadesk, try swapping them in case of a mixup on RX/TX
+# when you soldered the wires.
+#####
+uart:
+  id: uart_desk
+  baud_rate: 115200
+  tx_pin: GPIO6
+  rx_pin: GPIO7
+
+sensor:
+  - platform: megadesk
+    max_height:
+      name: "Max Height"
+    min_height:
+      name: "Min Height"
+    raw_height:
+      name: "Raw Height"
