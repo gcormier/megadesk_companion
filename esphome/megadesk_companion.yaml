@@ -17,12 +17,12 @@ logger:
 
 external_components:
   # Local source for development.
-  - source: components
+  #- source: components
   
   # Remote source, use this one unless you are developing.
-  #- source: github://gcormier/megadesk_companion/esphome@main
-  #  components: [ megadesk ]
-  #  refresh: 0s
+  - source: github://gcormier/megadesk_companion/esphome@main
+    components: [ megadesk ]
+    refresh: 120s
 
 api:
   password: ""
