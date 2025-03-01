@@ -81,8 +81,8 @@ namespace esphome
         if (this->raw_height_)
         {
           this->raw_height_->publish_state(position);
-          //this->height_cm_->publish_state(getCentimeters(position));
-          //this->height_inches_->publish_state(getInches(position));
+          this->height_cm_->publish_state(getCentimeters(position));
+          this->height_inches_->publish_state(getInches(position));
         }
       }
       else if (command == 'R')
@@ -118,12 +118,12 @@ namespace esphome
 
     float MegaDesk::getInches(int rawHeightValue)
     {
-      return ((((rawHeightValue - 299) * (47 - 23)) / (6914 - 299)) + 23);
+      return ((((rawHeightValue - 299.0) * (47.0 - 23.0)) / (6914.0 - 299.0)) + 23.0);
     }
 
     float MegaDesk::getCentimeters(int rawHeightValue)
     {
-      return ((((rawHeightValue - 299) * (119.38 - 58.42)) / (6914 - 299)) + 58.42);
+      return ((((rawHeightValue - 299.0) * (119.38 - 58.42)) / (6914.0 - 299.0)) + 58.42);
     }
   } // namespace megadesk
 } // namespace esphome

@@ -56,10 +56,10 @@ sensor:
       name: "Min Height"
     raw_height:
       name: "Raw Height"
-#    height_cm:
-      #name: "Height (cm)"
-    #height_inches:
-      #name: "Height (in)"
+    height_cm:
+      name: "Height (cm)"
+    height_inches:
+      name: "Height (in)"
 
 
 button:

@@ -10,7 +10,7 @@ CONF_MIN_HEIGHT = "min_height"
 CONF_RAW_HEIGHT = "raw_height"
 CONF_HEIGHT_CM = "height_cm"
 CONF_HEIGHT_INCHES = "height_inches"
-CODEOWNERS = ["@swoboda1337"]
+CODEOWNERS = ["@swoboda1337", "@gcormier"]
 
 DEPENDENCIES = ['uart']
 
@@ -22,25 +22,25 @@ CONFIG_SCHEMA = uart.UART_DEVICE_SCHEMA.extend(
     {
         cv.GenerateID(): cv.declare_id(MegaDesk),
         cv.Optional(CONF_MAX_HEIGHT): sensor.sensor_schema(
-            # unit_of_measurement=UNIT_METER,
+            unit_of_measurement='',
             accuracy_decimals=0,
             device_class=DEVICE_CLASS_DISTANCE,
             state_class=STATE_CLASS_MEASUREMENT,
         ),
         cv.Optional(CONF_MIN_HEIGHT): sensor.sensor_schema(
-            # unit_of_measurement=UNIT_METER,
+            unit_of_measurement='',
             accuracy_decimals=0,
             device_class=DEVICE_CLASS_DISTANCE,
             state_class=STATE_CLASS_MEASUREMENT,
         ),
         cv.Optional(CONF_RAW_HEIGHT): sensor.sensor_schema(
-            # unit_of_measurement=UNIT_METER,
+            unit_of_measurement='',
             accuracy_decimals=0,
             device_class=DEVICE_CLASS_DISTANCE,
             state_class=STATE_CLASS_MEASUREMENT,
         ),
         cv.Optional(CONF_HEIGHT_CM): sensor.sensor_schema(
-            unit_of_measurement=UNIT_METER,
+            unit_of_measurement='cm',
             accuracy_decimals=1,
             device_class=DEVICE_CLASS_DISTANCE,
             state_class=STATE_CLASS_MEASUREMENT,
