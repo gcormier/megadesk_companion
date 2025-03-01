@@ -40,3 +40,4 @@ PCB/*-backups*
 *.lck
 pcb/#auto_saved_files#
 pcb/3DxService.log
+esphome/secrets.yaml
