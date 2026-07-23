@@ -22,9 +22,14 @@ namespace esphome
 
     int32_t MegaDesk::readdigits_()
     {
-      int r;
-      while ((r = read()) > 0)
+      // Only read what is already buffered. Calling read() past the buffered
+      // data blocks the ESPHome main loop on the UART read timeout (~100ms)
+      // and logs "Reading from UART timed out at byte 0!". The accumulated
+      // value in this->digits_ persists across calls, so a field split across
+      // multiple loop() iterations is resumed on the next call.
+      while (available())
       {
+        int r = read();
         if ((r < 0x30) || (r > 0x39))
         {
           // non-digit we're done, return what we have
@@ -34,6 +39,7 @@ namespace esphome
         this->digits_ = 10 * this->digits_ + (r - 0x30);
         // keep reading...
       }
+      // ran out of buffered data; resume on the next loop()
       return -1;
     }
 
@@ -46,9 +52,10 @@ namespace esphome
       static uint8_t ndx = 0;
       int r; // read char/digit
 
-      // read 2 chars
-      while ((ndx < numChars) && ((r = read()) != -1))
+      // read 2 chars (only what is buffered, to avoid a blocking read)
+      while ((ndx < numChars) && available())
       {
+        r = read();
         if ((ndx == 0) && (r != '>'))
         {
           // first char is not Tx, keep reading...
@@ -78,10 +85,19 @@ namespace esphome
     {
       if (command == '=')
       {
-        if (this->raw_height_)
+        // Guard each sensor independently: any of them may be unconfigured
+        // (nullptr). Dereferencing an unconfigured sensor here caused a
+        // null-pointer store-access-fault crash on the first height report.
+        if (this->raw_height_ != nullptr)
         {
           this->raw_height_->publish_state(position);
+        }
+        if (this->height_cm_ != nullptr)
+        {
           this->height_cm_->publish_state(getCentimeters(position));
+        }
+        if (this->height_inches_ != nullptr)
+        {
           this->height_inches_->publish_state(getInches(position));
         }
       }
@@ -89,14 +105,14 @@ namespace esphome
       {
         if (push_addr == 11)
         {
-          if (this->min_height_)
+          if (this->min_height_ != nullptr)
           {
             this->min_height_->publish_state(position);
           }
         }
         else if (push_addr == 12)
         {
-          if (this->max_height_)
+          if (this->max_height_ != nullptr)
           {
             this->max_height_->publish_state(position);
           }
